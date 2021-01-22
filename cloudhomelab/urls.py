@@ -1,7 +1,6 @@
 
 from django.contrib import admin
-from django.urls import path, include
-from membership import views
+from django.urls import path, includeqqq
 
 urlpatterns = [
     path('membership/', include('membership.urls')),
